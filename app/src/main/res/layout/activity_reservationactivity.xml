@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back"
+    android:background="@color/maron"
+    android:gravity="center"
+    android:orientation="vertical"><![CDATA[
+    tools:context="com.example.parkingv2.reservationactivity">
+
+
+
+    ]]><!-- Login Button -->
+
+    <!-- Link to Login Screen -->
+
+
+    <Button
+        android:id="@+id/btn_envoyer"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_send"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/idC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/Matricule"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/preC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/prenomC"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/grade"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <EditText
+        android:id="@+id/nomC"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/nomC"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="354dp"
+
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:hint="@string/numtel"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="360dp" />
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
